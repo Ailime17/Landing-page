@@ -1,0 +1,203 @@
+li a:hover {
+    color:aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.dogimg {
+    height: auto;
+    width: 440px;
+}
+
+.dogimage {
+    margin-bottom: 40px;
+}
+
+.iconimg {
+    height: auto;
+    width: 140px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(8, 8, 192, 0.726);
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+.header a {
+    color: aliceblue;
+}
+
+.headerleft {
+    align-self: center;
+    font-size:x-large;
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+    background-color: rgb(116, 116, 231);
+}
+
+.body .text {
+    width: 400px;
+    color: rgb(217, 217, 235);
+    margin-bottom: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(226, 226, 240);
+}
+
+.body a:hover,
+.signup a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.firstsignupbutton {
+    background-color: aquamarine;
+    width: 100px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/*.text p {
+    margin-top: 0;
+}*/
+
+.iconsandtexts {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.iconandtext {
+    width: 170px;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 37px;
+    color: rgb(94, 94, 207);
+    margin-top: 55px;
+}
+
+.icon {
+    border: 5px solid rgb(47, 47, 255);
+    border-radius: 20px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info .text {
+    text-align: center;
+    color: rgb(39, 139, 128);
+}
+
+.quote {
+    background-color:rgb(157, 157, 218);
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    font-size: 35px;
+    font-style: italic;
+    font-family: light;
+    width: 700px;
+    color: rgb(48, 48, 48);
+}
+
+.quotesignature {
+    font-weight: bold;
+    align-self: flex-end;
+    width: 500px;
+    font-size: 22px;
+}
+
+.signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupbox {
+    background-color: rgb(77, 255, 195);
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+}
+
+.secondsignupbutton {
+    align-self: center;
+    width: 100px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: blueviolet;
+    border: 3px solid white;
+}
+
+.signuptext p {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.signuptext .first {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: rgba(8, 8, 192, 0.726);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footertext {
+    color: aliceblue;
+}
